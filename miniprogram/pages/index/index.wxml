@@ -1,0 +1,55 @@
+<view class="index">
+
+  <view class="upper">
+    <view class="title">
+      <view class="main-title">
+        <text class="zx-name">欢迎回来，纸弦音乐</text>
+      </view>
+      <view class="main-desc">
+        <text class="zx-desc">喜欢您来！</text>
+      </view>
+    </view>
+    
+    <swiper class="banner" indicator-dots="true" autoplay="true">
+      <swiper-item>
+        <!-- <image src="images/image1.jpg" /> -->
+      </swiper-item>
+      <swiper-item>
+        <!-- <image src="images/image2.jpg" /> -->
+      </swiper-item>
+      <swiper-item>
+        <!-- <image src="images/image3.jpg" /> -->
+      </swiper-item>
+    </swiper>
+  </view>
+  
+  <view class="main-funcs">
+    <navigator url="/pages/page1/page1" class="main-button">
+      <text>页面1</text>
+    </navigator>
+    <navigator url="/pages/page2/page2" class="main-button">
+      <text>页面2</text>
+    </navigator>
+    <navigator url="/pages/page3/page3" class="main-button">
+      <text>页面3</text>
+    </navigator>
+    <navigator url="/pages/page4/page4" class="main-button">
+      <text>页面4</text>
+    </navigator>
+  </view>
+  
+  <!-- 新闻  TODO -->
+  <view class="news">
+    <text class="news-title">最新新闻</text>
+    <!-- <view class="news-item">
+      <text>新闻1</text>
+    </view>
+    <view class="news-item">
+      <text>新闻2</text>
+    </view>
+    <view class="news-item">
+      <text>新闻3</text>
+    </view> -->
+  </view>
+</view>
+
